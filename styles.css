@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 10px 10px 0px 0px;
+}
+
+.search {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search__text {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.search__text__input {
+  width: 500px;
+  height: 24px;
+  border-radius: 20px;
+  border: 1px solid #b3b3b3;
+  padding: 5px 20px;
+  outline: none;
+}
+
+.search__buttonmenu {
+  display: flex;
+  justify-content: center;
+}
+
+.search__buttonmenu input {
+  margin: 10px 5px;
+  background-color: #f2f2f2;
+  color: #5f6368;
+  border: none;
+  padding: 10px;
+}
+
+.navbar a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.search__logo {
+  height: 100px;
+}
+
+.navbar a:hover {
+  text-decoration: underline black;
+}
+
+.search__card p,
+input {
+  display: inline-block;
+}
+
+.search__card p {
+  width: 200px;
+  font-size: 13px;
+}
+
+.advancesearch form {
+  padding: 15px;
+}
+
+.search__card input {
+  width: 400px;
+  height: 18px;
+  padding: 0px 4px;
+}
+
+.divider {
+  background-color: #b3b3b3;
+  height: 1px;
+}
+
+.advancesearch h3 {
+  color: red;
+  font-weight: 200;
+  margin-top: 40px;
+  padding: 0px 20px;
+}
+
+.advancesearch__submit input {
+  background-color: #4d90fe;
+  color: #ffffff;
+  border: none;
+  padding: 10px 12px;
+  margin: 10px 0px;
+}
+
+.advancesearch__submit {
+  display: flex;
+  width: 610px;
+  justify-content: flex-end;
+}
